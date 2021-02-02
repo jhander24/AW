@@ -1,0 +1,36 @@
+/*
+JHANDER05.CSS
+*/
+*{
+    margin: 0px;
+    box-sizing:border-box;
+    font-family: Arial;
+}
+body{
+    background-color:gainsboro;
+}
+.html, .css{
+    color: white;
+    background-color:gray;
+    padding: 2px;
+}
+p{
+    color: black;
+    font-size: 14px;
+    margin-top: 50px;
+}
+h1{
+    color: black;
+    text-align: center;
+    padding: 25px
+}
+img{
+    width: 200px;
+}
+.arriba, .abajo{
+    display: flex;
+    flex-direction: row;
+}
+span{
+    background-color: white;
+}

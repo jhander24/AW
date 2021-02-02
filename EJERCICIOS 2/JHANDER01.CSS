@@ -1,0 +1,22 @@
+/*
+JHANDER 01.CSS
+*/
+*{
+    margin: 0px;
+    box-sizing:border-box;
+}
+h2{
+    color: blue;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    width: auto;
+}
+h3{
+    color: blue;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1.8%;
+}
+.abajo{
+    margin-bottom: 20px;
+}

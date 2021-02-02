@@ -1,0 +1,87 @@
+/*
+JHANDER02.CSS
+*/
+*{
+    margin: 0px;
+    box-sizing:border-box;
+    font-family: Arial;
+}
+.derecha{
+    padding: 20px;
+    font-size: 13px;
+    text-align: right;
+    width: 50%;
+    float: right;
+    position: absolute;
+    right: 0px;
+}
+.izquierda{
+    padding: 20px;
+    font-size: 13px;
+    width: 50%;
+    float: left;
+    text-align: left;
+    background-color: white;
+    position: absolute;
+    left: 0px;
+}
+.right{
+    font-size: 13px;
+    float: right;
+    padding: 15px;
+    background-color: gray;
+    width: 50%;
+    text-align: right;
+    background-color: gainsboro;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-top: 1px solid gray;
+}
+.left{
+    border-top: 1px solid gray;
+    position: absolute;
+    bottom: 0px;
+    font-size: 13px;
+    float: left;
+    padding: 15px;
+    background-color: gainsboro;
+    width: 50%;
+    text-align: left;
+}
+.pais{
+    padding: 15px;
+    background-color: gainsboro;
+    position: absolute;
+    bottom: 46px;
+    width: 100%;
+    font-size: 13px;
+    border-top: 1px solid gray;
+}
+img{
+    width: 35px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.iconos{
+    width: 25px;
+    position: absolute;
+    right: 60px;
+    top: 15px;
+}
+.google{
+    margin: auto;
+    width: 100%;
+    margin-top: 120px;
+}
+input{
+    width: 500px;
+    padding: 12px;
+    border: 1px solid gray;
+    margin: auto;
+    position: absolute;
+    top: 280px;
+    left: 415px;
+    border-radius: 50px;
+}

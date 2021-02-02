@@ -1,0 +1,62 @@
+/*
+JHANDER08.CSS
+*/
+*{
+    margin: 0px;
+    box-sizing:border-box;
+    font-family: Arial;
+}
+.titulo{
+    text-align: center;
+    background-color: #8484ff;
+    padding: 10px;
+    font-size: 30px;
+}
+.subtitulo{
+    text-align: center;
+    background-color: #bdbdff;
+    padding: 10px;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+table{
+    background-color:#acd5ff;
+    margin: auto;
+    width: 60%;
+    border-collapse: collapse;
+}
+table td{
+    border: 1px solid;
+    padding: 8px;
+}
+.centro, .recreo{
+    text-align: center;
+    font-size: 19px;
+}
+.centro{
+    background-color: #a6a6ff;
+}
+.derecha{
+    text-align: right;
+}
+.dias{
+    text-align: center;
+}
+.dias, .derecha, .centro, .recreo{
+    font-weight:700;
+}
+.rojo{
+    background-color: red;
+}
+.azul{
+    background-color: #a6a6ff;
+}
+.verde{
+    background-color: #3cf83c;
+}
+.morado{
+    background-color:#fc18d0;
+}
+.amarillo{
+    background-color: yellow;
+}

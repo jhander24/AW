@@ -1,0 +1,53 @@
+/*
+JHANDER11.CSS
+*/
+*{
+    margin: 0px;
+    box-sizing:border-box;
+    font-family: Arial;
+}
+img{
+    width: 200px;
+    border: 8px solid orange;
+}
+body{
+    background-color: #00e4e4;
+}
+h1{
+    text-align: center;
+    padding: 15px;
+}
+.arriba{
+    text-align: left;
+    margin: 10px 10px 10px 10px;
+    font-size: 14px;
+}
+.enlaces{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.primero, .segundo, .tercero, .cuarto{
+    background-color: white;
+    border: 10px solid orange;
+    font-size: 14px;
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+    margin-bottom: 25px;
+}
+.primero, .tercero{
+    display: flex;
+    flex-direction: row;
+}
+.segundo, .cuarto{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.derecha{
+    margin-left: 20px;
+}
+b{
+    font-size: 16px;
+}

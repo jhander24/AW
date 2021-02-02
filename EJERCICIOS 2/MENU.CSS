@@ -1,0 +1,38 @@
+/*
+JHANDER11.CSS
+*/
+body{
+    background-image: url(./IMG/MENU.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h3{
+    color: white;
+    text-align: center;
+}
+h1{
+    background-color: purple;
+    color: white;
+    margin: 40px;
+    padding: 25px;
+    border: 5px solid;
+    border-color: white;
+    float: center;
+    text-align: center;
+    width: 60%;
+}
+p{
+    background-color: forestgreen;
+    border: 5px solid white;
+    border-color: white;
+    width: 25%;
+    padding: 25px;
+    border-radius: 20px
+}
+a{
+    text-decoration: none;
+    color: white;
+}

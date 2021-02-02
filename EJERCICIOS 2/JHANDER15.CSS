@@ -1,0 +1,27 @@
+/*
+JHANDER15.CSS
+*/
+*{
+    margin: 0px;
+    box-sizing:border-box;
+    font-family: Arial;
+}
+body{
+    background-color: #d4d4d4;
+}
+img{
+    width: 100%;
+    border: 8px solid white;
+}
+.contenedor{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 50%;
+    grid-gap: 10px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+h2{
+    text-align: center;
+    padding: 25px;
+}
