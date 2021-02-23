@@ -1,0 +1,115 @@
+/*
+MUSIC.CSS
+*/
+*{
+    margin: 0px;
+    box-sizing:border-box;
+    font-family: Calibri;
+}
+.mflotante{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+.mflotante a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    float: left;
+    padding: 12px;
+    font-family: Arial;
+    font-size: 14px;
+}
+.uno{
+    text-align: center;
+    width: 10%;
+}
+.uno:hover{
+    background-color: white;
+    color: black;
+}
+.house{
+    width: 60%;
+}
+h1{
+    padding: 286px;
+    text-align: center;
+}
+span{
+    color:white;
+    font-size: 80px;
+    font-family:Couture;
+}
+body{
+    background-image: url(IMG/Tienda.png);
+    background-position: center center center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+h3{
+    text-align: center;
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 0px 25px 0px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+h2{
+    text-align: center;
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 0px 25px 0px;
+    background-color: white;
+    width: 80%;
+    margin: auto;
+}
+.titulo{
+    background-color: white;
+}
+.titulo2{
+    background-color: white;
+}
+.primero{
+    background-color: white;
+    padding: 0px 15px 50px 15px;
+    display: flex;
+    flex-direction: row;
+}
+iframe{
+    margin: auto;
+}
+h4{
+    text-align: center;
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 0px 25px 0px;
+    background-color: white;
+    width: 100%;
+    margin: auto;
+}
+.tema1, .tema2, .tema3, .tema4, .tema5, .tema6{
+    text-align: center;
+    background-color: white;
+}
+.tema6{
+    padding: 0px 0px 50px 0px;
+}
+footer{
+    background-color: black;
+    padding: 40px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+h5{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+}

@@ -1,0 +1,121 @@
+/*
+GALERY.CSS
+*/
+*{
+    margin: 0px;
+    box-sizing:border-box;
+    font-family:Calibri;
+}
+.mflotante{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+.mflotante a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    float: left;
+    padding: 12px;
+    font-family: Arial;
+    font-size: 14px;
+}
+.uno{
+    text-align: center;
+    width: 10%;
+}
+.uno:hover{
+    background-color: white;
+    color: black;
+}
+.house{
+    width: 60%;
+}
+body{
+    background-image: url(IMG/DJ.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+}
+h1{
+    padding: 286px;
+    text-align: center;
+}
+span{
+    color:white;
+    font-size: 80px;
+    font-family:Couture;
+}
+h3{
+    text-align: center;
+    font-family: Calibri;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 50px 0px 50px 0px;
+    background-color: white;
+    width: 100%;
+}
+.titulo{
+    background-color: white;
+}
+.nombres{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+}
+h2{
+    width: 100%;
+    text-align: center;
+    font-family: Calibri;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: white;
+    padding: 10px 0px 20px 0px;
+}
+.imagenes{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    width: 100%;
+    background-color: white;
+}
+.imagenes img{
+    width: 60%;
+    border-radius: 50%;
+    margin: auto;
+}
+.Festivales{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: white;
+}
+footer{
+    background-color: black;
+    padding: 40px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+h4{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+.Festivales img{
+    width: 18%;
+    margin: auto;
+}
+.listas{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+.fiesta, .dos, .tres, .cuatro{
+    width: 25%;
+    text-align: left;
+    padding: 0px 25px 50px 25px;
+    font-family: Calibri;
+    font-size: 15px;
+}

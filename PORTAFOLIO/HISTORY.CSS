@@ -1,0 +1,122 @@
+/*
+HISTORY.CSS
+*/
+*{
+    margin: 0px;
+    box-sizing:border-box;
+    font-family:Calibri;
+}
+.mflotante{
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
+.mflotante a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    float: left;
+    padding: 12px;
+    font-family: Arial;
+    font-size: 14px;
+}
+.uno{
+    text-align: center;
+    width: 10%;
+}
+.uno:hover{
+    background-color: white;
+    color: black;
+}
+.house{
+    width: 60%;
+}
+h1{
+    padding: 286px;
+    text-align: center;
+}
+.History{
+    color: white;
+    font-size: 80px;
+    font-family: Couture;
+}
+body{
+    background-image: url(IMG/Larry%20Levan.png);
+    background-position: center center center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+span{
+    font-size: 18px;
+    font-weight: 600;
+}
+.img{
+    width: 280px;
+}
+p{
+    margin: 0px 15px 0px 15px;
+    font-size: 15px;
+}
+.primero{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin: auto;
+    padding: 25px 15px 25px 15px;
+    border-bottom: 1px solid black;
+}
+.segundo{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin: auto;
+    padding: 25px 15px 25px 15px;
+    border-bottom: 1px solid black;
+}
+.tercero{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin: auto;
+    padding: 25px 15px 25px 15px;
+    border-bottom: 1px solid black;
+}
+.cuarto{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin: auto;
+    padding: 25px 15px 25px 15px;
+    border-bottom: 1px solid black;
+}
+.quinto{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin: auto;
+    padding: 25px 15px 25px 15px;
+    border-bottom: 1px solid black;
+}
+.sexto{
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin: auto;
+    padding: 25px 15px 50px 15px;
+}
+footer{
+    background-color: black;
+    padding: 40px;
+    width: 100%;
+    margin-bottom: 0px;
+}
+h4{
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+.Fondo{
+    background-color: white;
+}
